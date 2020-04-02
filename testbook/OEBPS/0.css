@@ -1,0 +1,172 @@
+/**/
+body {
+    margin-left: 8%;
+    margin-right: 10%
+    }
+.pageno {
+    font-size: x-small;
+    background-color: inherit;
+    color: silver;
+    text-indent: 0;
+    text-align: right;
+    border: 1px solid silver;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none
+    }
+.pageno:after {
+    color: gray;
+    content: attr(title)
+    }
+.it {
+    font-style: italic
+    }
+.bold {
+    font-weight: bold
+    }
+.sc {
+    font-variant: small-caps
+    }
+p {
+    text-indent: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: justify
+    }
+div.lgc p {
+    text-align: center;
+    text-indent: 0;
+    margin-top: 0;
+    margin-bottom: 0
+    }
+div.lgl p {
+    margin-top: 0;
+    margin-bottom: 0
+    }
+div.lgp p {
+    text-align: left;
+    text-indent: 0;
+    margin-top: 0;
+    margin-bottom: 0
+    }
+.poetry-container {
+    display: block;
+    text-align: left;
+    margin-left: 2em
+    }
+.stanza-inner {
+    display: inline-block
+    }
+.stanza-outer {
+    page-break-inside: avoid
+    }
+.stanza-inner .line0 {
+    display: inline-block
+    }
+.stanza-outer .line0 {
+    display: block
+    }
+h1 {
+    text-align: center;
+    font-weight: normal;
+    page-break-before: always;
+    font-size: 1.2em;
+    margin: 2em auto 1em auto
+    }
+.sub-head {
+    font-size: smaller
+    }
+hr.pbk {
+    border: none;
+    border-bottom: 1px solid silver;
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em
+    }
+.figcenter {
+    text-align: center;
+    margin: 1em auto;
+    page-break-inside: avoid
+    }
+div.blockquote {
+    margin: 1em 2em;
+    text-align: justify
+    }
+div.blockquote40percent {
+    margin: 1em auto;
+    width: 40%
+    }
+div.blockquote40percent p {
+    text-align: left
+    }
+.nobreak {
+    page-break-before: avoid
+    }
+p.line {
+    text-indent: 0;
+    margin-top: 0;
+    margin-bottom: 0
+    }
+div.lgp p.line0 {
+    text-indent: -3em;
+    margin: 0 auto 0 3em
+    }
+table {
+    page-break-inside: avoid
+    }
+table.center {
+    margin: 0.5em auto;
+    border-collapse: collapse
+    }
+table.flushleft {
+    margin: 0.5em 0;
+    border-collapse: collapse
+    }
+table.left {
+    margin: 0.5em 1.2em;
+    border-collapse: collapse
+    }
+.tab1c1 {
+    border-left: 1px solid black
+    }
+.tab1c1 {
+    border-right: 1px solid black
+    }
+#tab1 tr:nth-of-type(1) td {
+    border-top: 1px solid black
+    }
+#tab1 tr:nth-of-type(8) td {
+    border-bottom: 1px solid black
+    }
+.tdStyle0 {
+    text-align: center;
+    vertical-align: top
+    }
+.tdStyle1 {
+    text-align: left;
+    vertical-align: top
+    }
+.pindent {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 1.5em
+    }
+.noindent {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 0
+    }
+.hang {
+    padding-left: 1.5em;
+    text-indent: -1.5em
+    }
+.literal-container {
+    text-align: center;
+    margin: 0 0
+    }
+.literal {
+    display: inline-block;
+    text-align: left
+    }
+/**/

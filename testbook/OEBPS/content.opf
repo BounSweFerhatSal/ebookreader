@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<package xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="id">
+  <metadata>
+    <dc:rights>Public domain in the USA.</dc:rights>
+    <dc:identifier opf:scheme="URI" id="id">http://www.gutenberg.org/61686</dc:identifier>
+    <dc:creator opf:file-as="Ferber, Edna">Edna Ferber</dc:creator>
+    <dc:title>So Big</dc:title>
+    <dc:language xsi:type="dcterms:RFC4646">en</dc:language>
+    <dc:date opf:event="publication">2020-03-27</dc:date>
+    <dc:date opf:event="conversion">2020-03-27T21:00:17.993554+00:00</dc:date>
+    <dc:source>https://www.gutenberg.org/files/61686/61686-h/61686-h.htm</dc:source>
+    <meta name="cover" content="item1"/>
+  </metadata>
+  <manifest>
+    <!--Image: 800 x 1207 size=122942 (was 1944 x 2935 scale=0.41) q=90-->
+    <item href="@public@vhost@g@gutenberg@html@files@61686@61686-h@images@cover.jpg" id="item1" media-type="image/jpeg"/>
+    <item href="pgepub.css" id="item2" media-type="text/css"/>
+    <item href="0.css" id="item3" media-type="text/css"/>
+    <item href="1.css" id="item4" media-type="text/css"/>
+    <item href="2.css" id="item5" media-type="text/css"/>
+    <!--Chunk: size=52194 Split on div-->
+    <item href="@public@vhost@g@gutenberg@html@files@61686@61686-h@61686-h-0.htm.html" id="item6" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=60883 Split on div-->
+    <item href="@public@vhost@g@gutenberg@html@files@61686@61686-h@61686-h-1.htm.html" id="item7" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=70214 Split on div-->
+    <item href="@public@vhost@g@gutenberg@html@files@61686@61686-h@61686-h-2.htm.html" id="item8" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=52344 Split on div-->
+    <item href="@public@vhost@g@gutenberg@html@files@61686@61686-h@61686-h-3.htm.html" id="tab1" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=75517 Split on div-->
+    <item href="@public@vhost@g@gutenberg@html@files@61686@61686-h@61686-h-4.htm.html" id="item9" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=56402 Split on div-->
+    <item href="@public@vhost@g@gutenberg@html@files@61686@61686-h@61686-h-5.htm.html" id="item10" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=82021 Split on p-->
+    <item href="@public@vhost@g@gutenberg@html@files@61686@61686-h@61686-h-6.htm.html" id="item11" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=73235 Split on div-->
+    <item href="@public@vhost@g@gutenberg@html@files@61686@61686-h@61686-h-7.htm.html" id="item12" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=59513 Split on div-->
+    <item href="@public@vhost@g@gutenberg@html@files@61686@61686-h@61686-h-8.htm.html" id="item13" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=64206 Split on div-->
+    <item href="@public@vhost@g@gutenberg@html@files@61686@61686-h@61686-h-9.htm.html" id="item14" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=22111-->
+    <item href="@public@vhost@g@gutenberg@html@files@61686@61686-h@61686-h-10.htm.html" id="item15" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="wrap0000.html" id="coverpage-wrapper" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="coverpage-wrapper" linear="yes"/>
+    <itemref idref="item6" linear="yes"/>
+    <itemref idref="item7" linear="yes"/>
+    <itemref idref="item8" linear="yes"/>
+    <itemref idref="tab1" linear="yes"/>
+    <itemref idref="item9" linear="yes"/>
+    <itemref idref="item10" linear="yes"/>
+    <itemref idref="item11" linear="yes"/>
+    <itemref idref="item12" linear="yes"/>
+    <itemref idref="item13" linear="yes"/>
+    <itemref idref="item14" linear="yes"/>
+    <itemref idref="item15" linear="yes"/>
+  </spine>
+  <guide>
+    <reference type="cover" title="Cover" href="wrap0000.html"/>
+  </guide>
+</package>

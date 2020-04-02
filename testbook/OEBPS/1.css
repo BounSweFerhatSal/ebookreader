@@ -1,0 +1,21 @@
+/**/
+.poetry-container {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em
+    }
+.literal-container {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em
+    }
+div.lgc {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em
+    }
+p {
+    margin-top: 0;
+    margin-bottom: 0
+    }
+.invisible {
+    visibility: hidden
+    }
+/**/
